@@ -5,7 +5,7 @@ def telephone():
     prefix_ = phone_number//10000%1000
     suffix_ = phone_number%10000
 
-    print('('+str(area_)+')'+str(prefix_)+'-'+str(suffix_))
+    print('('+str(area_)+')'+ ' '+str(prefix_)+'-'+str(suffix_))
 
 if __name__ == "__main__":
     telephone()

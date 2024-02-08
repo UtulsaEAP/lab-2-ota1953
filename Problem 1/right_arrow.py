@@ -2,8 +2,8 @@ def right_arrow():
    
     ''' Type your code here. '''
 
-    base = input("")
-    head = input("")
+    base = input()
+    head = input()
 
     row1 = ('      ' + head)
     row2 = (base + base + base + base + base + base + head)
