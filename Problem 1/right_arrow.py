@@ -1,9 +1,13 @@
 def right_arrow():
-    base_char = input()
-    head_char = input()
-
-    row1 = '      ' + head_char
+   
     ''' Type your code here. '''
+
+    base = input("")
+    head = input("")
+
+    row1 = ('      ' + head)
+    row2 = (base + base + base + base + base + base + head)
+    row3 = (base + base + base + base + base + base + head + head + head)
 
     print(row1)
     print(row2)
